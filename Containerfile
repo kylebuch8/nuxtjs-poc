@@ -9,7 +9,6 @@ COPY package*.json ./
 
 # Install app dependencies
 RUN npm install
-RUN npm run build
 
 # Copy the dependencies into a minimal Node.js image
 FROM registry.access.redhat.com/ubi8/nodejs-18-minimal:latest AS final
@@ -30,6 +29,8 @@ ENV NODE_ENV development
 
 # Listen on port 8080
 ENV PORT 3000
+
+RUN npm run build
 
 # Container exposes port 8080
 EXPOSE 3000
