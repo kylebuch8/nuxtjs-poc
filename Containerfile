@@ -35,5 +35,8 @@ RUN npm run build
 # Container exposes port 8080
 EXPOSE 3000
 
+ENV NUXT_HOST=0.0.0.0
+ENV NUXT_PORT=3000
+
 # Start node process
 CMD ["npm", "run", "server"]
