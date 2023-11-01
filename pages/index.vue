@@ -34,7 +34,7 @@ useHead({
       </div>
     </div>
   </section>
-  <section class="p-5">
+  <section class="py-5">
     <div class="container">
       <div class="row">
         <div class="col-lg-9">
@@ -44,25 +44,25 @@ useHead({
       </div>
     </div>
   </section>
-  <section class="p-5">
+  <section class="py-5">
     <div class="container">
       <h3>Build on a reliable foundation. Take your apps anywhere.</h3>
       <div class="row">
-        <div class="col-lg-4">
+        <div class="col-lg-4 mb-3 mb-lg-0">
           <rh-card>
             <h4 slot="header">Red Hat Enterprise Linux</h4>
             <p>Support application deployments—from on premise to the cloud to the edge—in a flexible operating environment.</p>
             <rh-cta slot="footer" variant="secondary"><a href="https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux">Get product details</a></rh-cta>
           </rh-card>
         </div>
-        <div class="col-lg-4">
+        <div class="col-lg-4 mb-3 mb-lg-0">
           <rh-card>
             <h4 slot="header">Red Hat OpenShift</h4>
             <p>Quickly build and deploy applications at scale, while you modernize the ones you already have.</p>
             <rh-cta slot="footer" variant="secondary"><a href="https://www.redhat.com/en/technologies/cloud-computing/openshift">Get product details</a></rh-cta>
           </rh-card>
         </div>
-        <div class="col-lg-4">
+        <div class="col-lg-4 mb-3 mb-lg-0">
           <rh-card>
             <h4 slot="header">Red Hat Ansible Automation Platform</h4>
             <p>Create, manage, and dynamically scale automation across your entire enterprise.</p>

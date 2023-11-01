@@ -76,7 +76,6 @@ body {
   margin: 0;
   font-size: 1.05rem;
   font-family: 'Red Hat Text', sans-serif;
-  line-height: 30px;
 }
 
 h1,
@@ -97,5 +96,9 @@ h1 {
 h2 {
   font-size: 40px;
   line-height: 48px;
+}
+
+main {
+  line-height: 30px;
 }
 </style>
