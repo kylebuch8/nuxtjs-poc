@@ -42,34 +42,44 @@ useHead({
           <p>Enterprises around the world trust our broad portfolio of hybrid cloud infrastructure, application services, cloud-native application development, and automation solutions to deliver IT services on any infrastructure quickly and cost effectively.</p>
         </div>
       </div>
+      <h3>Build on a reliable foundation. Take your apps anywhere.</h3>
     </div>
   </section>
-  <section class="py-5">
+  <section class="py-5 bg-black">
     <div class="container">
-      <h3>Build on a reliable foundation. Take your apps anywhere.</h3>
-      <div class="row">
-        <div class="col-lg-4 mb-3 mb-lg-0">
-          <rh-card>
-            <h4 slot="header">Red Hat Enterprise Linux</h4>
+      <div class="row mb-5">
+        <div class="col-lg-4 mb-3 mb-lg-0 d-flex">
+          <rh-card color-palette="dark">
+            <div slot="header">
+              <img class="mb-1" src="https://www.redhat.com/rhdc/managed-files/Technology_icon-Red_Hat-Enterprise_Linux-Standard-RGB.svg" aria-hidden="true" alt="Red Hat Enterprise Linux">
+              <h4 class="m-0">Red Hat Enterprise Linux</h4>
+            </div>
             <p>Support application deployments—from on premise to the cloud to the edge—in a flexible operating environment.</p>
             <rh-cta slot="footer" variant="secondary"><a href="https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux">Get product details</a></rh-cta>
           </rh-card>
         </div>
-        <div class="col-lg-4 mb-3 mb-lg-0">
-          <rh-card>
-            <h4 slot="header">Red Hat OpenShift</h4>
+        <div class="col-lg-4 mb-3 mb-lg-0 d-flex">
+          <rh-card color-palette="dark">
+            <div slot="header">
+              <img class="mb-1" src="https://www.redhat.com/rhdc/managed-files/Technology_icon-Red_Hat-OpenShift-Standard-RGB.svg" aria-hidden="true" alt="Red Hat OpenShift">
+              <h4 class="m-0">Red Hat OpenShift</h4>
+            </div>
             <p>Quickly build and deploy applications at scale, while you modernize the ones you already have.</p>
             <rh-cta slot="footer" variant="secondary"><a href="https://www.redhat.com/en/technologies/cloud-computing/openshift">Get product details</a></rh-cta>
           </rh-card>
         </div>
-        <div class="col-lg-4 mb-3 mb-lg-0">
-          <rh-card>
-            <h4 slot="header">Red Hat Ansible Automation Platform</h4>
+        <div class="col-lg-4 mb-3 mb-lg-0 d-flex">
+          <rh-card color-palette="dark">
+            <div slot="header">
+              <img class="mb-1" src="https://www.redhat.com/rhdc/managed-files/ansible-icon.svg" aria-hidden="true" alt="Red Hat Ansible Automation Platform">
+              <h4 class="m-0">Red Hat Ansible Automation Platform</h4>
+            </div>
             <p>Create, manage, and dynamically scale automation across your entire enterprise.</p>
             <rh-cta slot="footer" variant="secondary"><a href="https://www.redhat.com/en/technologies/management/ansible">Get product details</a></rh-cta>
           </rh-card>
         </div>
       </div>
+      <rh-cta variant="primary"><a href="https://www.redhat.com/en/technologies/all-products">See all products</a></rh-cta>
     </div>
   </section>
 </template>
@@ -77,5 +87,15 @@ useHead({
 <style scoped>
 .hero {
   background-color: #feeded;
+}
+
+.bg-black {
+  background-color: #000000;
+}
+
+@media (min-width: 992px) {
+  rh-card {
+    margin-top: -80px;
+  }
 }
 </style>

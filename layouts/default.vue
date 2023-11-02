@@ -98,6 +98,10 @@ h2 {
   line-height: 48px;
 }
 
+h3 {
+  font-size: 28px;
+}
+
 main {
   line-height: 30px;
 }
